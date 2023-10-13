@@ -12,8 +12,8 @@ window.addEventListener("DOMContentLoaded", async () => {
             document.writeln(error.message);
         }, {
             enableHighAccuracy: true,
-            maximumAge: 10000,
-            timeout: 10000,
+            maximumAge: 100000,
+            timeout: 100000,
         });
     }
 });
